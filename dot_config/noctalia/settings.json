@@ -1,0 +1,217 @@
+{
+    "appLauncher": {
+        "backgroundOpacity": 1,
+        "enableClipboardHistory": true,
+        "pinnedExecs": [
+        ],
+        "position": "center",
+        "sortByMostUsed": true,
+        "useApp2Unit": true
+    },
+    "audio": {
+        "cavaFrameRate": 60,
+        "mprisBlacklist": [
+        ],
+        "preferredPlayer": "",
+        "visualizerType": "wave",
+        "volumeOverdrive": false,
+        "volumeStep": 5
+    },
+    "bar": {
+        "backgroundOpacity": 1,
+        "density": "default",
+        "floating": false,
+        "marginHorizontal": 0.25,
+        "marginVertical": 0.25,
+        "monitors": [
+            "eDP-1"
+        ],
+        "position": "top",
+        "showCapsule": true,
+        "widgets": {
+            "center": [
+                {
+                    "id": "MediaMini",
+                    "showAlbumArt": true,
+                    "showVisualizer": true,
+                    "visualizerType": "linear"
+                }
+            ],
+            "left": [
+                {
+                    "id": "SessionMenu"
+                },
+                {
+                    "hideUnoccupied": false,
+                    "id": "Workspace",
+                    "labelMode": "name"
+                },
+                {
+                    "id": "ActiveWindow",
+                    "showIcon": true
+                }
+            ],
+            "right": [
+                {
+                    "displayMode": "alwaysShow",
+                    "id": "Volume"
+                },
+                {
+                    "id": "WiFi"
+                },
+                {
+                    "id": "Bluetooth"
+                },
+                {
+                    "displayMode": "alwaysShow",
+                    "id": "Battery",
+                    "warningThreshold": 30
+                },
+                {
+                    "id": "Tray"
+                },
+                {
+                    "formatHorizontal": "HH:mm ddd, MMM dd",
+                    "formatVertical": "HH mm - dd MM",
+                    "id": "Clock",
+                    "useMonospacedFont": true,
+                    "usePrimaryColor": true
+                },
+                {
+                    "hideWhenZero": true,
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true
+                },
+                {
+                    "customIconPath": "",
+                    "icon": "noctalia",
+                    "id": "ControlCenter",
+                    "useDistroLogo": true
+                }
+            ]
+        }
+    },
+    "brightness": {
+        "brightnessStep": 5
+    },
+    "colorSchemes": {
+        "darkMode": true,
+        "predefinedScheme": "Tokyo Night",
+        "useWallpaperColors": false
+    },
+    "dock": {
+        "autoHide": true,
+        "backgroundOpacity": 0.49,
+        "exclusive": false,
+        "floatingRatio": 0,
+        "monitors": [
+            "eDP-1"
+        ],
+        "pinnedApps": [
+        ]
+    },
+    "general": {
+        "animationSpeed": 1,
+        "avatarImage": "/home/merlin/.face",
+        "dimDesktop": true,
+        "forceBlackScreenCorners": false,
+        "radiusRatio": 1,
+        "screenRadiusRatio": 1,
+        "showScreenCorners": false
+    },
+    "hooks": {
+        "darkModeChange": "",
+        "enabled": false,
+        "wallpaperChange": ""
+    },
+    "location": {
+        "name": "Xi'an",
+        "showWeekNumberInCalendar": false,
+        "use12hourFormat": false,
+        "useFahrenheit": false
+    },
+    "matugen": {
+        "enableUserTemplates": false,
+        "foot": false,
+        "fuzzel": false,
+        "ghostty": false,
+        "gtk3": false,
+        "gtk4": false,
+        "kitty": false,
+        "pywalfox": false,
+        "qt5": false,
+        "qt6": false,
+        "vesktop": false
+    },
+    "network": {
+        "bluetoothEnabled": true,
+        "wifiEnabled": true
+    },
+    "nightLight": {
+        "autoSchedule": true,
+        "dayTemp": "6500",
+        "enabled": false,
+        "forced": false,
+        "manualSunrise": "06:30",
+        "manualSunset": "18:30",
+        "nightTemp": "4000"
+    },
+    "notifications": {
+        "alwaysOnTop": true,
+        "criticalUrgencyDuration": 15,
+        "doNotDisturb": false,
+        "enableOSD": true,
+        "lastSeenTs": 1758462528000,
+        "location": "top_right",
+        "lowUrgencyDuration": 3,
+        "monitors": [
+            "eDP-1"
+        ],
+        "normalUrgencyDuration": 8,
+        "respectExpireTimeout": false
+    },
+    "screenRecorder": {
+        "audioCodec": "opus",
+        "audioSource": "default_output",
+        "colorRange": "limited",
+        "directory": "/home/merlin/Videos",
+        "frameRate": 60,
+        "quality": "very_high",
+        "showCursor": true,
+        "videoCodec": "h264",
+        "videoSource": "portal"
+    },
+    "settingsVersion": 1,
+    "ui": {
+        "fontBillboard": "Inter",
+        "fontDefault": "Roboto",
+        "fontFixed": "DejaVu Sans Mono",
+        "idleInhibitorEnabled": false,
+        "monitorsScaling": [
+            {
+                "name": "eDP-1",
+                "scale": 1
+            }
+        ]
+    },
+    "wallpaper": {
+        "directory": "/home/merlin/Pictures/wallpapers",
+        "enableMultiMonitorDirectories": false,
+        "enabled": true,
+        "fillColor": "#000000",
+        "fillMode": "crop",
+        "monitors": [
+            {
+                "directory": "/home/merlin/Pictures/wallpapers",
+                "name": "eDP-1",
+                "wallpaper": "/home/merlin/Pictures/wallpapers/totoro.png"
+            }
+        ],
+        "randomEnabled": false,
+        "randomIntervalSec": 300,
+        "setWallpaperOnAllMonitors": true,
+        "transitionDuration": 1500,
+        "transitionEdgeSmoothness": 0.05,
+        "transitionType": "random"
+    }
+}
