@@ -31,7 +31,9 @@
         "widgets": {
             "center": [
                 {
+                    "autoHide": true,
                     "id": "MediaMini",
+                    "scrollingMode": "hover",
                     "showAlbumArt": true,
                     "showVisualizer": true,
                     "visualizerType": "linear"
@@ -47,7 +49,9 @@
                     "labelMode": "name"
                 },
                 {
+                    "autoHide": true,
                     "id": "ActiveWindow",
+                    "scrollingMode": "hover",
                     "showIcon": true
                 }
             ],
@@ -96,6 +100,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
+        "matugenSchemeType": "scheme-fruit-salad",
         "predefinedScheme": "Tokyo Night",
         "useWallpaperColors": false
     },
@@ -111,6 +116,7 @@
         ]
     },
     "general": {
+        "animationDisabled": false,
         "animationSpeed": 1,
         "avatarImage": "/home/merlin/.face",
         "dimDesktop": true,
@@ -144,7 +150,6 @@
         "vesktop": false
     },
     "network": {
-        "bluetoothEnabled": true,
         "wifiEnabled": true
     },
     "nightLight": {
@@ -160,15 +165,21 @@
         "alwaysOnTop": true,
         "criticalUrgencyDuration": 15,
         "doNotDisturb": false,
-        "enableOSD": true,
         "lastSeenTs": 1758462528000,
         "location": "top_right",
-        "lowUrgencyDuration": 3,
+        "lowUrgencyDuration": 5,
         "monitors": [
             "eDP-1"
         ],
         "normalUrgencyDuration": 8,
         "respectExpireTimeout": false
+    },
+    "osd": {
+        "autoHideMs": 2400,
+        "enabled": true,
+        "location": "bottom",
+        "monitors": [
+        ]
     },
     "screenRecorder": {
         "audioCodec": "opus",
